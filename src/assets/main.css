@@ -1,0 +1,58 @@
+/* @import './base.css'; */
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  /* max-width: 400px; */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+.dp-grid {
+  display: grid;
+}
+
+.btn-submit {
+  /* width: 70%; */
+  border-radius: 0.5rem;
+}
+
+@media (hover: hover) {
+  /* a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  } */
+}
+
+@media (min-width: 1024px) {
+
+}
