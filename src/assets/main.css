@@ -7,8 +7,13 @@
   margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
+}
+
+.dp-flex {
+  display: flex;
 }
 
 input {
@@ -19,7 +24,7 @@ input {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -54,5 +59,4 @@ a,
 }
 
 @media (min-width: 1024px) {
-
 }
